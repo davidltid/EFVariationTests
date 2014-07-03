@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBCodeFirst", "DBCodeFirst\DBCodeFirst.csproj", "{49D0450C-B2EC-43E6-A580-6765C7D9C862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFirstDesigner", "DBFirstDesigner\DBFirstDesigner.csproj", "{95471794-20E6-42DC-82B3-75889EFCD840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFirstCode", "DBFirstCode\DBFirstCode.csproj", "{1145D5F8-4428-4007-8BC8-B76AF8211180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBModelFirst", "DBModelFirst\DBModelFirst.csproj", "{1030A577-EDDC-4648-B832-0BE694875223}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49D0450C-B2EC-43E6-A580-6765C7D9C862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D0450C-B2EC-43E6-A580-6765C7D9C862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D0450C-B2EC-43E6-A580-6765C7D9C862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D0450C-B2EC-43E6-A580-6765C7D9C862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95471794-20E6-42DC-82B3-75889EFCD840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95471794-20E6-42DC-82B3-75889EFCD840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95471794-20E6-42DC-82B3-75889EFCD840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95471794-20E6-42DC-82B3-75889EFCD840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1145D5F8-4428-4007-8BC8-B76AF8211180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1145D5F8-4428-4007-8BC8-B76AF8211180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1145D5F8-4428-4007-8BC8-B76AF8211180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1145D5F8-4428-4007-8BC8-B76AF8211180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1030A577-EDDC-4648-B832-0BE694875223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1030A577-EDDC-4648-B832-0BE694875223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1030A577-EDDC-4648-B832-0BE694875223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1030A577-EDDC-4648-B832-0BE694875223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
